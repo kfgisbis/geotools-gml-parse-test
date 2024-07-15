@@ -1,0 +1,17 @@
+<wfs:FeatureCollection xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                       xmlns:te="gisbis" xmlns:wfs="http://www.opengis.net/wfs"
+                       xmlns:gml="http://www.opengis.net/gml"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       numberOfFeatures="0" timeStamp="2024-07-12T14:38:11.749Z"
+                       xsi:schemaLocation="http://www.opengis.net/wfs http://127.0.0.1:8083/geoserver/schemas/wfs/1.1.0/wfs.xsd gisbis">
+    <gml:featureMembers>
+        <te:test_table gml:id="test_table.2">
+            <te:geom>
+                <gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" srsDimension="2">
+                    <gml:pos>11 48</gml:pos>
+                </gml:Point>
+            </te:geom>
+            <te:desc>has geom</te:desc>
+        </te:test_table>
+    </gml:featureMembers>
+</wfs:FeatureCollection>
